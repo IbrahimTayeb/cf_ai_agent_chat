@@ -1,0 +1,17 @@
+{
+  "name": "cloudflare-ai-agent-chat",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "client": "npm run dev --prefix client"
+  },
+  "dependencies": {
+    "agents": "latest",
+    "wrangler": "latest",
+    "typescript": "^5.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}
